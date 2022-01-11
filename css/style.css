@@ -1,0 +1,183 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Caveat', cursive;
+ }
+ #preloader {
+     width: 100%;
+     height: 100vh;
+     z-index: 99999;
+     background: url(images/Coronavirus.gif) no-repeat center;
+     position: fixed;
+     background-color: whitesmoke;
+ }
+ html {
+     scroll-behavior: smooth;
+ }
+/* header section css */
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0 0 0 15px;
+    color: black;
+    font-weight: 500;
+}
+.navbar-toggler-icon {
+    border: none;
+    outline: none;
+}
+/* watch main section css */
+.main-content-area img {
+    width: 250px;
+    display: inline-block;
+    margin-top: 74px;
+}
+.watch-right {
+    padding-top: 67px;
+}
+.watch-right p {
+    padding: 23px 0 23px;
+    line-height: 30px;
+    font-size: 22px;
+}
+.watch-right .btn-1 {
+	border-radius: 30px;
+	padding: 19px 49px;
+	border: none;
+	font-size: 18px;
+	background-color: #f9a743;
+	color: white;
+	font-weight: bold;
+	box-shadow: 1px 2px 9px 0px rgb(0, 0, 0.4);
+}
+/* our core feautures section start */
+
+.features-area {
+    margin-top: 120px;
+}
+.main-wrap {
+    padding-top: 80px;
+}
+.features-area .img {
+    display: inline-block;
+    text-align: center;
+}
+.features-area .main-wrap i{
+    color: #6e7275;
+}
+.features-area .main-wrap h3{
+    color: #3b4045;
+}
+.features-area .main-wrap p{
+    color:#7e8892;
+}
+/* section:3 professional design part */
+.professional-part {
+    margin-top: 85px;
+    background-color: #f9a743;
+}
+.professional-part .watch {
+    display: inline-block;
+    padding: 105px 0 86px 0;
+    
+}
+.professional-part .text {
+    padding: 137px 0 86px 0;
+    color: whitesmoke;
+}
+/* section:4 why choose part  */
+.why-choose {
+    margin-top: 30px;
+}
+.apple-content {
+    margin-top: 69px;
+}
+.apple-text {
+    padding: 100px 0 0 0;
+}
+ .btt {
+	text-decoration: none;
+	background-color: #f9a743;
+	color: whitesmoke;
+	padding: 13px 33px;
+	border-radius: 22px;
+	font-weight: bold;
+	margin-top: 288px;
+    box-shadow: 1px 2px 6px 0px rgb(0, 0, 0.4);
+    word-spacing: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btt:hover {
+    color:whitesmoke;
+}
+/* section:5 watch-text part  */
+.lorem-content {
+    padding: 87px 0 0 0;
+}
+/* section:6 slider content */
+.slider-content .custom-slider {
+    margin-top: 70px;
+    margin-bottom: 79px;
+}
+.slider-content .custom-slider img {
+    display: inline-block;
+    width: 230px;
+    transition: 0.6s;
+}
+.slider-content .custom-slider img:hover {
+    opacity: 0.9;
+}
+/* section:7 product update content */
+.product-content {
+    background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.6)),url(../images/call-to-action.jpg) no-repeat 0 0 / cover;
+    background-attachment: fixed;    
+}
+.bg-area {
+    padding-top: 78px;
+    color: whitesmoke;
+    padding-bottom: 90px;
+}
+.bg-area input[type="text"] {
+	border-radius: 30px;
+	border: none;
+	padding: 11px 12px;
+	width: 40%;
+    
+}
+.btn-wrper {
+	background-color: #f9a743;
+	color: white;
+	padding: 10px 24px;
+	border: none;
+	border-radius: 19px;
+	margin-left: 16px;
+}
+.custom {
+    margin: 0!important;
+}
+/* section:8 review content */
+.review-content .custom-design h1 {
+    color:#3b4045;
+}
+.review-content .custom-design p {
+    color: #3b4045;
+}
+.review-content .custom-design img {
+    width: 20%;
+}
+.btn-cus {
+	margin-top: 57px;
+	display: inline-block;
+    margin-bottom: 80px;
+}
+/* section:9 footer content */
+.footer-content {
+    background-color: #f4f4f4;
+}
+.footer-content a {
+    text-decoration: none;
+    color: black;
+}

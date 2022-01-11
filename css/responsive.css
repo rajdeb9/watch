@@ -1,0 +1,248 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+    /*  section:1 main watch section start */
+    .main-content-area {
+        text-align: center;
+    }
+    .main-content-area img {
+        width: 222px!important;
+    }
+    .main-content-area h1 {
+        font-size: 30px!important;
+    }
+    .main-content-area p {
+        text-align: center;
+    }
+    .main-content-area .btt {
+        text-align: center;
+        padding: 11px 21px;
+    }
+    /* section:2 our core feautures section start  */
+    .features-area  {
+        text-align: center;
+        margin-top: 90px;
+    }
+    .features-area h3 {
+        font-size: 19px;
+    }
+    .features-area p {
+        font-size: 15px;
+    }
+    .features-area .first-box {
+        padding-top: 0;
+    }
+    .features-area .second-box img{
+        width:200px;
+        padding-top: 14px!important;
+    }
+    .features-area .third-box {
+        padding-top: 50px!important;
+    }
+    /* section:3 professional design part */
+    .professional-part {
+        text-align: center;
+    }
+    .professional-part img {
+        width: 226px;
+    }
+    .professional-part .text {
+        padding: 0px 0 39px 0;
+    }
+    /* section:4 why choose part */
+    .why-choose  {
+        text-align: center;
+    }
+    .why-choose img {
+        max-width: 90%;
+        padding-bottom: 40px;
+    }
+    .why-choose h1 {
+        font-size: 15px!important;
+    }
+    .why-choose p {
+        font-size: 17px!important;
+    }
+    /* section:5 watch-text part */
+    .watch-content {
+        text-align: center;
+    }
+    .watch-content p {
+        font-size: 16px!important;
+    }
+    .watch-content img {
+        max-width: 78%!important;
+        display: inline-block;
+        padding-top: 55px!important;
+    }
+    /* section:6 slider content */
+    .slider-content {
+        text-align: center;
+    }
+    /*section:7 product update content  */
+    .product-content {
+        text-align: center;
+    }
+    .product-content input[type="text"] {
+        border-radius: 30px;
+        padding: 10px 25px;
+         width: 94%;
+    }
+    .product-content button {
+
+        margin-top: 33px;
+        border-radius: 23px;
+        padding: 10px 32px;
+    }
+    /* section:8 review content */
+    .review-content {
+        text-align: center;
+    }
+    .review-content a {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /*  section:1 main watch section start*/
+ .main-content-area {
+     text-align: center;
+ }
+     /*  section:2 our core feautures section start*/
+    .features-area {
+        text-align: center;
+    }
+    .features-area .third-box {
+        padding-top: 40px;
+    }
+    /* section:3 professional design part */
+    .professional-part  {
+        text-align: center;
+        
+    }
+    .professional-part .watch {
+        padding: 105px 0 0px 0;
+    }
+    /*section:4 why choose part  */
+    .why-choose {
+        text-align: center;
+    }
+    /* section:5 watch-text part*/
+    .watch-content {
+        text-align: center;
+    }
+    .watch-content img {
+        width: 240px;
+    }
+
+    /* section:6 slider content */
+   .slider-content {
+       text-align: center;
+   } 
+   /* section:7 product update content */
+   .product-content {
+       text-align: center;
+   }
+   /* section:8 review content */
+   .review-content {
+       text-align: center;
+   }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+
+/* section:1 main watch section start */
+
+@media (max-width: 991.98px) { 
+    /* section:1 main watch section start  */
+    .main-content-area img {
+        width: 240px;
+    }
+    .main-content-area .respons {
+        font-size: 40px!important;
+        padding-top: 8px;
+        line-height: 48px!important;
+    }       
+    .main-content-area p {
+        font-size: 15px;
+        padding: 7px 0 20px;
+    }        
+    .main-content-area .btt {
+        padding: 12px 27px;
+    }
+    /* section:2 our core feautures section start  */
+    .features-area .res-img {
+        max-width: 100%;
+        display: inline-block;
+        padding-top: 100px;
+    }
+    /*section:3 professional design part  */
+    .professional-part {
+        padding: 2px 0 16px 0;
+    }
+    .professional-part img {
+        width: 234px;
+    }
+    .professional-part h1 {
+        font-size: 26px;
+    }
+    .professional-part p {
+        font-size: 17px!important;
+    }
+    .professional-part .p {
+        font-size: 17px!important;
+        padding-top: 0!important;
+    }
+    /* section:4 why choose part */
+    .left-area {
+        padding-top:18px!important;
+    }
+    .why-choose img {
+        max-width: 96%;
+    }
+    .why-choose h1 {
+        font-size: 29px!important;
+    }
+    .why-choose .btt {
+        padding: 13px 25px;
+    }
+    /* section:5 watch-text part */
+    .watch-content h1 {
+        font-size: 29px;
+    }
+    .watch-content .btt {
+        padding: 13px 25px;
+    }
+    .watch-content img {
+        max-width: 96%;
+        display: inline-block;
+        padding-top: 15px;
+    }
+    /* section:6 slider content */
+    .slider-content img {
+        width: 206px!important;
+    }
+    /* section:8 review content */
+    .review-content p {
+        font-size: 17px!important;
+    }
+    .review-content .btt {
+        padding: 12px 24px;
+    }
+    /* section:9 footer content */
+    .footer-content ul li{
+        font-size: 14px;
+    }
+    .footer-content .lst{
+        font-size: 14px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
